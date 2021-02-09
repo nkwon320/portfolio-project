@@ -56,7 +56,7 @@ nav ul li {
 }
 
 .navbar-nav > li > a.active,
-.navbar-nav > li > a.active:focus {
+.navbar-nav > li > a:focus {
 	border-top: 0.1875rem solid var(--primary-orange);
 }
 
@@ -69,7 +69,7 @@ nav ul li {
 	background: url(wall-and-laptop-background.jpg) no-repeat;
 	background-size: cover;
 	background-position: center;
-	height: 90vh;
+	height: 100vh;
 }
 
 .main-info {
@@ -358,6 +358,10 @@ nav ul li {
 	cursor: pointer;
 }
 
+.popupbox-wrapper {
+	margin-top: 7rem;
+}
+
 .project-image-popupbox {
 	width: 45rem;
 	padding: 0 0.5rem;
@@ -508,4 +512,25 @@ input.form-control, textarea.form-control {
 	font-weight: 900;
 	color: var(--primary-green);
 	font-size: x-large;
+}
+
+.footer {
+	background: var(--primary-black);
+	color: var(--primary-dark-grey);
+	padding: 3rem;
+}
+
+.footer a {
+	text-decoration: none;
+	color: var(--primary-dark-grey);
+}
+
+.footer a:hover {
+	text-decoration: none;
+	color: var(--primary-orange);
+	cursor: pointer;
+}
+
+.footer p {
+	margin-bottom: 0;
 }
