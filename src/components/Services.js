@@ -16,9 +16,9 @@ const Services = () => {
 							</div>
 							<h3>HTML/CSS/JS</h3>
 							<p>
-								HTML5
+								HTML 5
 								<br />
-								CSS3
+								CSS 3
 								<br />
 								jQuery
 								<br />
