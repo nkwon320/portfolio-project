@@ -1,7 +1,7 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFacebookF, faGoogle, faPython, faReact, faJava } from '@fortawesome/free-brands-svg-icons';
-import { faDesktop, faFileCode } from '@fortawesome/free-solid-svg-icons';
+import { faPython, faReact, faJava } from '@fortawesome/free-brands-svg-icons';
+import { faFileCode } from '@fortawesome/free-solid-svg-icons';
 
 const Services = () => {
 	return (
@@ -16,9 +16,9 @@ const Services = () => {
 							</div>
 							<h3>HTML/CSS/JS</h3>
 							<p>
-								HTML5
+								HTML 5
 								<br />
-								CSS3
+								CSS 3
 								<br />
 								jQuery
 								<br />
