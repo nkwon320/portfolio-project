@@ -1,48 +1,82 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFacebookF, faGoogle } from '@fortawesome/free-brands-svg-icons';
+import { faFacebookF, faGoogle, faPython, faReact, faJava } from '@fortawesome/free-brands-svg-icons';
 import { faDesktop, faFileCode } from '@fortawesome/free-solid-svg-icons';
 
 const Services = () => {
 	return (
 		<div id="services" className="services">
-			<h1 className="py-5">my services</h1>
+			<h1 className="py-5">languages</h1>
 			<div className="container">
 				<div className="row">
 					<div className="col-lg-3 col-md-6 col-sm-6">
 						<div className="box">
 							<div className="circle">
-								<FontAwesomeIcon className="icon" icon={faDesktop} size="2x" />
-							</div>
-							<h3>Web Design</h3>
-							<p>I approach each project individually and always focus on the result.</p>
-						</div>
-					</div>
-					<div className="col-lg-3 col-md-6 col-sm-6">
-						<div className="box">
-							<div className="circle">
 								<FontAwesomeIcon className="icon" icon={faFileCode} size="2x" />
 							</div>
-							<h3>Web Development</h3>
-							<p>Your website will be built with a new proven technology.</p>
+							<h3>HTML/CSS/JS</h3>
+							<p>
+								HTML5
+								<br />
+								CSS3
+								<br />
+								jQuery
+								<br />
+								Bootstrap
+							</p>
 						</div>
 					</div>
 					<div className="col-lg-3 col-md-6 col-sm-6">
 						<div className="box">
 							<div className="circle">
-								<FontAwesomeIcon className="icon" icon={faFacebookF} size="2x" />
+								<FontAwesomeIcon className="icon" icon={faPython} size="2x" />
 							</div>
-							<h3>Facebook Ads</h3>
-							<p>Your potential clients will see your services or product on Facebook.</p>
+							<h3>Python</h3>
+							<p>
+								Flask
+								<br />
+								MySQL
+								<br />
+								Ajax
+								<br />
+								APIs
+								<br />
+								Django
+							</p>
 						</div>
 					</div>
 					<div className="col-lg-3 col-md-6 col-sm-6">
 						<div className="box">
 							<div className="circle">
-								<FontAwesomeIcon className="icon" icon={faGoogle} size="2x" />
+								<FontAwesomeIcon className="icon" icon={faJava} size="2x" />
 							</div>
-							<h3>Google Ads</h3>
-							<p>Your service or product will appear at the top of the Google search.</p>
+							<h3>Java</h3>
+							<p>
+								Spring MVC
+								<br />
+								MySQL
+							</p>
+						</div>
+					</div>
+					<div className="col-lg-3 col-md-6 col-sm-6">
+						<div className="box">
+							<div className="circle">
+								<FontAwesomeIcon className="icon" icon={faReact} size="2x" />
+							</div>
+							<h3>React</h3>
+							<p>
+								Redux & Redux Saga
+								<br />
+								Hooks
+								<br />
+								Context API
+								<br />
+								Styled-Components
+								<br />
+								Firebase
+								<br />
+								Stripe API
+							</p>
 						</div>
 					</div>
 				</div>
